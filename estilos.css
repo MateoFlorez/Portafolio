@@ -15,7 +15,7 @@ body {
 .navbar {
     z-index: 900;
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-color: black;
     color: white;
     text-decoration: none;
@@ -64,19 +64,20 @@ body {
     font-size: 25px;
     color: black;
 }
-.inicio .contenido-inicio .hola span { 
-    font-size: 50px;
-    color: white;
-}
 
 .inicio .contenido-inicio .nombre {
-    font-size: 30px;
-    color: black;
+    font-size: 50px;
+    color: white;
 }
 
 .inicio .contenido-inicio .estudiante {
     font-size: 28px;
     color: black;
+}
+
+.inicio .contenido-inicio .desarrollo {
+    font-size: 35px;
+    color: white;
 }
 
 .navbar .menu li a:hover {
@@ -107,8 +108,114 @@ section {
 }
 
 section .titulo1 {
-    font-size: 30px;
+    font-size: 50px;
     position: relative;
     text-align: center;
 
 }
+
+.biografia {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.biografia .texto2 p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 450px;
+}
+
+section .titulo2 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.habilidad {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    background-color: gray;
+    color: black;
+}
+
+.habilidad .texto {
+    font-size: 25px;
+    color: black;
+}
+
+.habilidad .texto2 p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 450px;
+    color: black;
+    font-weight: 100;
+}
+
+.programas {
+    margin: 20px 445px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.programas img {
+    width: 35px;
+    height: 35px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: black;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+.fa-whatsapp {
+    background-color: black;
+    color: white;
+}
+
+.fa-github {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.name {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+
+.porta {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}   
